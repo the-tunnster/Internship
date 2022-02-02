@@ -1,0 +1,17 @@
+Outline API :   Create an outline for an essay about Mac versus PC
+                Create an outline for an essay about Mac versus PC with history, cost and pros and cons
+
+Parsing API :   "Macs and PCs have been around for a long time and there are pros and cons to both
+                This essay will outline the history of both, as well as the cost and pros and cons of each
+                In the end, it will be up to the individual to decide which is best for them
+                Macs were first created in 1984 by Apple Inc.
+                They were designed to be user-friendly and to have a sleek, simple design
+                They were also the first computers to use a graphical user interface
+                PCs were first created in 1981 by IBM
+                They were designed to be more customizable and to be used in business
+                They were also the first computers to use a command line interface
+                Macs are more expensive than PCs
+                This is largely due to the fact that Macs come with more pre-installed software
+                However, Macs are often more reliable and have a longer lifespan than PCs"
+
+                |Product| Performance| Cost| Usability|
