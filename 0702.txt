@@ -1,0 +1,122 @@
+Keywords API :
+Should I buy a second house?
+What are the factors I should consider when buying a house?
+
+    Davinci :       factors to consider when buying a house, should i buy a second house, buy a house
+
+    Curie :         -Should i buy a second house?
+                    -What are the factors i should consider when buying a house?
+
+    Babbage :       1. House 
+                    2. Should 
+                    3. Buy a second house?
+
+    Ada :           -What are the factors you should consider when buying a house?
+                    -What are the factors when looking for a house?
+                    -What are some things to consider when finding a house?
+
+Essay API :
+Compare the iphone 13 and pixel 6
+    The iPhone 13 and Pixel 6 are both high-end smartphones. They have many similarities, but there 
+    are also some key differences.The iPhone 13 has a 6.5-inch OLED display, while the Pixel 6 has 
+    a 6-inch OLED display. The iPhone 13 has a triple-lens rear camera, while the Pixel 6 has a 
+    dual-lens rear camera. The iPhone 13 has a larger battery capacity than the Pixel 6. The Pixel 
+    6 has a better water resistance rating than the iPhone 13. The iPhone 13 is more expensive than 
+    the Pixel 6.
+
+Compare the iphone 13 and pixel 6
+I.
+    Davinci :       I. The iPhone 13 has a better camera than the Pixel 6.
+                    II. The iPhone 13 has a better screen than the Pixel 6.
+                    III. The iPhone 13 is faster than the Pixel 6.
+            
+    Curie :         I. The iPhone 13 has a larger screen than the Pixel 6.
+                    II. The iPhone 13 has a better camera than the Pixel 6.
+                    III. The iPhone 13 has a faster processor than the Pixel 6.
+                    IV. The iPhone 13 has a longer battery life than the Pixel 6.
+
+    Babbage :       The iPhone 13 has a 6-inch display with a resolution of 1440 x 2560 pixels. The pixel 6 has a 
+                    5.8-inch display with a resolution of 2560 x 1440 pixels.
+
+    Ada :           The iPhone 13 has a new A13 Bionic chip that allows it to have a higher performance, larger screen, 
+                    and new features. It also has a new model number, 13Ama, and is now available in Gold, Silver, and 
+                    Space Gray.
+
+Create an outline for an essay comparing the iphone 13 and pixel 6
+    Davinci :       I. Introduction
+                    A. The iPhone 13 and Pixel 6 are two of the most popular smartphones on the market.
+                    B. They both have their pros and cons, but which one is the best?
+                    C. In this essay, I will compare and contrast the two smartphones and try to determine which one is the best.
+                    II. Design
+                    A. The iPhone 13 has a sleek, minimalist design that is very popular among consumers.
+                    B. The Pixel 6, on the other hand, has a more industrial look that some people may not like.
+                    C. Overall, I would say that the iPhone 13 has the better design.
+                    III. Display
+                    A. The iPhone 13 has a larger display than the Pixel 6.
+                    B. The Pixel 6 has a higher resolution than the iPhone 13.
+                    C. Overall, I would say that the Pixel 6 has the better display.
+                    IV. Performance
+                    A. The iPhone 13 has a faster processor than the Pixel 6.
+                    B. The Pixel 6 has more RAM than the iPhone 13.
+                    C. Overall, I would say that the Pixel 6 has the better performance.
+
+    Curie :         1. Introduce the two devices and provide a brief overview of their features.
+                    2. Discuss the pros and cons of each device.
+                    3. Compare and contrast the two devices in terms of their performance, features, and value.
+                    4. Summarize the key differences between the two devices.
+
+    Babbage :       1. The iPhone 13 has a larger screen than the Pixel 6.
+                    2. The iPhone 13 has a better camera than the Pixel 6.
+                    3. The iPhone 13 has a faster processor than the Pixel 6.
+                    4. The iPhone 13 has a more powerful battery than the Pixel 6.
+                    5. The iPhone 13 is more expensive than the Pixel 6.
+
+    Ada :           1. The iPhone 13 is a more powerful and faster phone.
+                    2. The pixel 6 is a more efficient phone.
+                    3. The pixel 6 is more efficient and powerful than the iphone 13.
+                    4. The iphone 13 is more powerful and fast.
+                    5. The pixel 6 is more efficient and powerful.
+
+Create an essay comparing the iphone 13 and pixel 6
+    Davinci:        The iPhone 13 and Pixel 6 are two of the most popular smartphones on the market. They both have 
+                    their pros and cons, but which one is the best? The iPhone 13 has a better camera than the 
+                    Pixel 6. It has a 12MP rear-facing camera and a 7MP front-facing camera, while the Pixel 6 has 
+                    a 12.2MP rear-facing camera and a 8MP front-facing camera. The iPhone 13 also has a better 
+                    screen than the Pixel 6. It has a 6.5-inch OLED display, while the Pixel 6 has a 6.1-inch LCD 
+                    display. The iPhone 13 also has a better battery life than the Pixel 6. It has a battery life 
+                    of up to 25 hours, while the Pixel 6 has a battery life of up to 18 hours. The Pixel 6 has a 
+                    better processor than the iPhone 13. It has a Qualcomm Snapdragon 855 processor, while the 
+                    iPhone 13 has a A13 Bionic processor. The Pixel 6 also has a better storage capacity than the 
+                    iPhone 13. It has a storage capacity of up to 128GB, while the iPhone 13 has a storage capacity 
+                    of up to 256GB. The Pixel 6 also has a better water resistance rating
+
+    Curie :         When it comes to smartphones, there are a few that stand out from the rest. One of these is the iPhone 
+                    13, which is a powerful device that offers a lot of features for its price. On the other hand, there is 
+                    the Pixel 6, which is a newer phone that is also very powerful. When it comes to design, the iPhone 13 
+                    is definitely more stylish. It has a sleek and modern look that is perfect for those who are looking 
+                    for a phone that will look good on them. The Pixel 6, on the other hand, is a bit more utilitarian in 
+                    design. It is not as flashy as the iPhone 13, but it is still a very attractive phone. When it comes to 
+                    features, the iPhone 13 definitely has the upper hand. It has a lot of features that are not available 
+                    on the Pixel 6, such as a powerful camera and a large screen. The Pixel 6, on the other hand, is a very 
+                    powerful phone that is perfect for those who need a lot of power and features. Overall, the iPhone 13 
+                    is a more stylish and powerful phone than the Pixel 6. It is perfect for those who are looking for a 
+                    phone that will look good on them and offer a
+
+    Babbage :       The iPhone 13 and Pixel 6 are two of the newest and most popular smartphones on the market. They both 
+                    have a lot of features and are very different from each other. The iPhone 13 has a lot of features that are not found
+                    on the Pixel 6. For example, the iPhone 13 has a Face ID system that is much more secure than the Pixel 
+                    6. The Pixel 6 also does not have a headphone jack, which is a big difference. The iPhone 13 also has a 
+                    much more powerful A12 Bionic chip than the Pixel 6. This means that the iPhone 13 can handle a lot 
+                    more tasks than the Pixel 6. The iPhone 13 also has a much better camera than the Pixel 6. The Pixel 6 
+                    also has a lot of features that are not found on the iPhone 13. For example, the Pixel 6 does not have 
+                    a face scanner, which is a big difference. The Pixel 6 also does not have a headphone jack, which is a 
+                    big difference. The Pixel 6 also has a much more powerful A12 Bionic chip than the iPhone 13. This 
+                    means that the Pixel 6 can handle a lot more tasks than the iPhone 13. The Pixel 6 also has a much 
+                    better camera than the
+
+    Ada :           The iPhone 13 is a newer and more advanced phone than the iPhone 6. It has a larger screen, a 3-in-1 
+                    card reader, and is able to store and share photos and videos with others through Face ID. The iPhone 6 
+                    is able to only work with the iPhone 5 or 5S. The iPhone 13 can be used with the iPhone 5 or 5S. It is 
+                    important to note that the iPhone 13 is not only a better phone, it is also more affordable. The iPhone 
+                    13 is able to offer a more advanced user experience over the iPhone 6. Additionally, the iPhone 13 is 
+                    more reliable in the long run.
