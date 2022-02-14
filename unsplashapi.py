@@ -1,9 +1,11 @@
 import clip
 import torch
 import urllib.request
-from pathlib import Path
+import requests
 import pandas as pd
 import numpy as np
+
+from pathlib import Path
 from IPython.display import Image
 from IPython.display import display
 from IPython.core.display import HTML
@@ -31,7 +33,6 @@ def find_best_matches(text_features,
     # Return the photo IDs of the best matches
     return [photo_ids[i] for i in best_photo_idx[:results_count]]
 
-
 def display_photo(photo_id):
     # Get the URL of the photo resized to have a width of 320px
     photo_image_url = f"https://unsplash.com/photos/{photo_id}/download?w=320"
@@ -43,9 +44,8 @@ def display_photo(photo_id):
     display(HTML(f'Photo on <a target="_blank" href="https://unsplash.com/photos/{photo_id}">Unsplash</a> '))
     print()
 
-
 def search_unslash(search_query, photo_features, photo_ids, results_count=3):
-    print("2.0")
+    
     # Encode the search query
     text_features = encode_search_query(search_query)
 
@@ -57,14 +57,23 @@ def search_unslash(search_query, photo_features, photo_ids, results_count=3):
     for photo_id in best_photo_ids:
         display_photo(photo_id)
 
-
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model, preprocess = clip.load("ViT-B/32", device=device)
+
+def load_photo_ids(fileName):
+    photo_ids = pd.read_csv("unsplash-dataset/photo_ids.csv")
+    photo_ids = list(photo_ids['photo_id'])
+    return(photo_ids)
+
 
 photo_ids = pd.read_csv("unsplash-dataset/photo_ids.csv")
 photo_ids = list(photo_ids['photo_id'])
 
 # Load the features vectors
+def load_photo_features(fileName):
+    photo_features = np.load("unsplash-dataset/features.npy")
+    return(photo_features)
+
 photo_features = np.load("unsplash-dataset/features.npy")
 
 # Convert features to Tensors: Float32 on CPU and Float16 on GPU
