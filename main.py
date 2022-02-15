@@ -83,7 +83,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 model, preprocess = clip.load("ViT-B/32", device=device)
 
 
-def doStuff():
+def doStuff(search_query):
 
     photo_ids = pd.read_csv("unsplash-dataset/photo_ids.csv")
     photo_ids = list(photo_ids['photo_id'])
@@ -100,7 +100,7 @@ def doStuff():
     # Print some statistics
     print(f"Photos loaded: {len(photo_ids)}")
 
-    search_query = "should i buy the iphone 13 or pixel 6"
+    #search_query = "should i buy the iphone 13 or pixel 6"
 
     result = search_unslash2(search_query, photo_features, photo_ids, 1)
 
@@ -117,7 +117,7 @@ class Info(BaseModel):
 @app.post("/")
 def read_root(info : Info):
 
-    best_photo_ids = doStuff()
+    best_photo_ids = doStuff(question)
 
     photo_image_url_1 = "https://unsplash.com/photos/"
     photo_image_url_2 = "/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjQ0ODE4NTk4&force=true"
