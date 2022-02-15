@@ -9,6 +9,7 @@ import pandas as pd
 from pathlib import Path
 from fastapi import FastAPI
 from typing import Optional
+from pydantic import BaseModel
 from IPython.display import Image
 from IPython.display import display
 from IPython.core.display import HTML
@@ -99,7 +100,7 @@ def doStuff():
     # Print some statistics
     print(f"Photos loaded: {len(photo_ids)}")
 
-    search_query = "what camera should i buy for youtube"
+    search_query = "should i buy the iphone 13 or pixel 6"
 
     result = search_unslash2(search_query, photo_features, photo_ids, 1)
 
@@ -108,16 +109,25 @@ def doStuff():
 
 app = FastAPI()
 
-@app.get("/")
-def read_root():
+class Info(BaseModel):
+    user_id : int
+    question_id : int
+    question : str
+
+@app.post("/")
+def read_root(info : Info):
 
     best_photo_ids = doStuff()
 
     photo_image_url_1 = "https://unsplash.com/photos/"
     photo_image_url_2 = "/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjQ0ODE4NTk4&force=true"
 
-    for photo_id in best_photo_ids:
-        r = requests.get(photo_image_url_1 + photo_id + photo_image_url_2, allow_redirects=True)
-        open("photos/"+photo_id+".jpeg", 'wb').write(r.content)
+    #for photo_id in best_photo_ids:
+    #    r = requests.get(photo_image_url_1 + photo_id + photo_image_url_2, allow_redirects=True)
+    #    open("photos/"+photo_id+".jpeg", 'wb').write(r.content)
 
-    return FileResponse("photos/"+photo_id+".jpeg")
+    return {
+        "status" : "SUCCESS",
+        "url" : photo_image_url_1 + photo_id + photo_image_url_2,
+        "data" : info
+    }
