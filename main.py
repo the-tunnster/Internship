@@ -29,7 +29,7 @@ def encode_search_query(search_query):
 def find_best_matches(text_features,
                       photo_features,
                       photo_ids,
-                      results_count=3):
+                      results_count):
     # Compute the similarity between the search query and each photo using the Cosine similarity
     similarities = (photo_features @ text_features.T).squeeze(1)
 
@@ -50,20 +50,7 @@ def display_photo(photo_id):
     display(HTML(f'Photo on <a target="_blank" href="https://unsplash.com/photos/{photo_id}">Unsplash</a> '))
     print()
 
-def search_unslash(search_query, photo_features, photo_ids, results_count=3):
-    
-    # Encode the search query
-    text_features = encode_search_query(search_query)
-
-    # Find the best matches
-    best_photo_ids = find_best_matches(text_features, photo_features,
-                                       photo_ids, results_count)
-
-    # Display the best photos
-    for photo_id in best_photo_ids:
-        display_photo(photo_id)
-
-def search_unslash2(search_query, photo_features, photo_ids, results_count=3):
+def search_unsplash(search_query, photo_features, photo_ids, results_count):
     
     # Encode the search query
     text_features = encode_search_query(search_query)
@@ -74,9 +61,6 @@ def search_unslash2(search_query, photo_features, photo_ids, results_count=3):
 
     # Display the best photos
     return best_photo_ids
-
-    photo_features = np.load("unsplash-dataset/features.npy")
-    return(photo_features)
 
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -102,32 +86,28 @@ def doStuff(search_query):
 
     #search_query = "should i buy the iphone 13 or pixel 6"
 
-    result = search_unslash2(search_query, photo_features, photo_ids, 1)
+    result = search_unsplash(search_query, photo_features, photo_ids, 1)
 
     return result
 
 
-app = FastAPI()
+# app = FastAPI()
 
-class Info(BaseModel):
-    user_id : int
-    question_id : int
-    question : str
+# class Info(BaseModel):
+#     user_id : int
+#     question_id : int
+#     question: str
 
-@app.post("/")
-def read_root(info : Info):
+# @app.post("/")
+# def read_root(info : Info):
 
-    best_photo_ids = doStuff(question)
+#     best_photo_id = doStuff(info.question)
 
-    photo_image_url_1 = "https://unsplash.com/photos/"
-    photo_image_url_2 = "/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjQ0ODE4NTk4&force=true"
+#     photo_image_url_1 = "https://unsplash.com/photos/"
+#     photo_image_url_2 = "/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjQ0ODE4NTk4&force=true"
 
-    #for photo_id in best_photo_ids:
-    #    r = requests.get(photo_image_url_1 + photo_id + photo_image_url_2, allow_redirects=True)
-    #    open("photos/"+photo_id+".jpeg", 'wb').write(r.content)
-
-    return {
-        "status" : "SUCCESS",
-        "url" : photo_image_url_1 + photo_id + photo_image_url_2,
-        "data" : info
-    }
+#     return {
+#         "status" : "SUCCESS",
+#         "url" : photo_image_url_1 + best_photo_id[0] + photo_image_url_2,
+#         "data" : info
+#     }
