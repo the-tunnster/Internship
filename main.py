@@ -90,24 +90,23 @@ def doStuff(search_query):
 
     return result
 
+app = FastAPI()
 
-# app = FastAPI()
+class Info(BaseModel):
+    user_id : int
+    question_id : int
+    question: str
 
-# class Info(BaseModel):
-#     user_id : int
-#     question_id : int
-#     question: str
+@app.post("/")
+def read_root(info : Info):
 
-# @app.post("/")
-# def read_root(info : Info):
+    best_photo_id = doStuff(info.question)
 
-#     best_photo_id = doStuff(info.question)
+    photo_image_url_1 = "https://unsplash.com/photos/"
+    photo_image_url_2 = "/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjQ0ODE4NTk4&force=true"
 
-#     photo_image_url_1 = "https://unsplash.com/photos/"
-#     photo_image_url_2 = "/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjQ0ODE4NTk4&force=true"
-
-#     return {
-#         "status" : "SUCCESS",
-#         "url" : photo_image_url_1 + best_photo_id[0] + photo_image_url_2,
-#         "data" : info
-#     }
+    return {
+        "status" : "SUCCESS",
+        "url" : photo_image_url_1 + best_photo_id[0] + photo_image_url_2,
+        "data" : info
+    }
