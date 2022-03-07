@@ -1,0 +1,72 @@
+Prompt 1:
+    Create an essay about Walt Disney and his contributions to animation:
+    Modifiers :     
+
+    I: Introduction
+        A: Walt Disney's life and work
+        B: The creation of animation
+        C: The influence of animation on society
+        D: The legacy of Walt Disney
+    II: Walt Disney's life and work
+        A: Walt Disney was born on December 5, 1901, in Chicago, Illinois.
+
+
+
+    I. Introduction
+        A. Walt Disney was born on December 5, 1901, in Chicago, Illinois.
+        B. He was an American entrepreneur, animator, voice actor, and film producer.
+        C. He is best known for his work in the field of animation.
+        D. He founded the
+
+Prompt 2:
+    Give me 5 pointers about Walt Disney and his contributions to animation:
+    1. Walt Disney was an animation pioneer and is considered one of the most influential animators of all time.
+    2. He was the creator of Mickey Mouse and many other iconic animated characters.
+    3. He was a driving force behind the development of animation as an art form.
+    4. He was a master of animation technique and pioneered many of the techniques used in animation today.
+    5. He was a major influence on the development of animation technology and helped to make animation more accessible to the general public.
+
+Prompt 3:
+    Create an essay giving 5 pointers about Walt Disney and his contributions to animation:
+    1. Walt Disney was a pioneer in animation and made many contributions to the art form.
+    2. He created the first cartoon with sound, "Steamboat Willie", and also pioneered the use of color in animation.
+    3. He was responsible for creating some of the most beloved animated characters of all time, including Mickey Mouse, Donald Duck, and Goofy.
+    4. He produced some of the most popular animated films of all time, including "Snow White and the Seven Dwarfs", "Cinderella", and "The Lion King".
+    5. He helped to create the Walt Disney Company, which is now one of the largest and most successful entertainment companies in the world.
+
+
+Prompt 4:
+    Create an essay giving 5 pointers about Walt Disney and his contributions to animation: \nI.
+    I. Walt Disney was born on December 5, 1901 in Chicago, Illinois.
+    II. He was one of five children and his father was a carpenter.
+    III. Disney developed an interest in art at an early age and began his career as an advertising cartoonist in Kansas City.
+    IV. In 1923, he moved to Hollywood and started his own animation studio, which became the Walt Disney Studios.
+    V. Disney is best known for his animated features including "Snow White and the Seven Dwarfs" (1937), "Pinocchio" (1940), "Fantasia" (1940), "Dumbo" (1941), and "Bambi" (1942).
+
+Prompt 5:
+    Create an essay giving 5 pointers about Walt Disney and his contributions to animation: \I:
+    I: Walt Disney was born on December 5, 1901 in Chicago, Illinois.
+    II: He and his brother Roy co-founded The Walt Disney Company in 1923.
+    III: He is best known for creating animated films such as Snow White and the Seven Dwarfs, Pinocchio, Fantasia, Dumbo, Bambi, and Peter Pan.
+    IV: He also pioneered the development of the amusement park industry with Disneyland and Walt Disney World.
+    V: Disney was honored with 22 Academy Awards and received the Presidential Medal of Freedom.
+
+
+
+research :
+
+Create an essay giving 5 pointers about <topic> with respect to <sub category of topic>:
+eg : Create an essay giving 5 pointers about buying a house with respect to the importance of a good economy:
+    gives us a direct relation between the two
+
+Create an essay giving 5 pointers about <topic> and <sub category of topic>:
+eg : Create an essay giving 5 pointers about buying a house and the importance of a good economy:
+    gives us a slight corelation
+
+
+Create an essay giving 5 pointers to consider before buying a house:
+Create an essay giving 5 pointers to consider about the economy before buying a house:
+
+
+
+Create an essay giving 5 pointers about <list of sub categories> and <topic>:
